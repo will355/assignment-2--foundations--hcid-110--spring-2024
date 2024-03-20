@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #ff5733;
+  --secondary-color: #ffc300;
+  --font-family-headings: 'Poppins', sans-serif;
+  --font-family-text: 'Playfair', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-text);
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero img {
+  max-width: 100%;
+}
